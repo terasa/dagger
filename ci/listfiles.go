@@ -5,9 +5,8 @@ import (
     "fmt"
     "log"
     "os"
-     "fmt"
-     "math/rand"
-     "time"
+    "math/rand"
+    "time"
 
     "dagger.io/dagger"
 )
