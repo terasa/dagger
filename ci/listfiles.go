@@ -47,11 +47,11 @@ func main() {
 func generateRandomEcho() string {
      // List of possible echo messages
      echos := []string{
-      "Rafał",
-      "Szymon",
-      "Dzordz",
-      "Darek",
-      "Michał",
+      "[Dummy log] [internal] load metadata for docker.io/library/node:18",
+      "[Dummy log] => resolve docker.io/library/node:18",
+      "[Dummy log] => transferring context: 2.71MB",
+      "[Dummy log] CACHED [stage-1 2/5] WORKDIR /app",
+      "[Dummy log] [internal] load build context",
      }
     
      // Generate a random index
