@@ -20,7 +20,7 @@ jobs:
       - name: Install Dagger CLI
         run: cd /usr/local && { curl -L https://dl.dagger.io/dagger/install.sh | sh; cd -; }
       - name: Run Dagger pipeline
-        run: dagger run node ci/listfiles.go
+        run: dagger run go run ci/listfiles.go
         env:
            DAGGER_CLOUD_TOKEN: ${{ secrets.DAGGER_CLOUD_TOKEN }}
         # for ephemeral runners only: override the default docker stop timeout and
