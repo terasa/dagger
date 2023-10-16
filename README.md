@@ -1,4 +1,4 @@
-# Dagger Quickstart - Example Application
+# Dagger Quickstart - Example Application1
 
 This example application is intended for use with the [Dagger Quickstart](https://docs.dagger.io/648215/quickstart/).
 
